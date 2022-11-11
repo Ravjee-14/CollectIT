@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">OPSC7311_POE_TASK_2_CATEGORY_FUNCTIONALITY</string>
+    <string name="Create_Categories"><b><u>Create Category</u></b></string>
+    //Akshay (2016). How to set underline text on textview? [online] Stack Overflow. Available at: https://stackoverflow.com/questions/5645789/how-to-set-underline-text-on-textview [Accessed 22 May 2022].
+    <string name="Categories"><b><u>Categories</u></b></string>
+    <string name="create_item"><u>Create Item</u></string>
+    <string name="items"><u>Items</u></string>
+    <string name="item_name">Item Name</string>
+    <string name="add_image">Add an image</string>
+    <string name="add_image_btn">Add an image</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="date_acquired">Date of Acquisition</string>
+    <string name="cost_of_item">Cost of Item</string>
+    <string name="add">ADD</string>
+    <string name="List">View all Items</string>
+
+
+    <string-array name="catagories">
+        <item>Cars</item>
+        <item>Stamps</item>
+        <item>Art</item>
+        <item>Other</item>
+    </string-array>
+</resources>

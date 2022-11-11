@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "375346872086",
+    "project_id": "collectit-part2",
+    "storage_bucket": "collectit-part2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375346872086:android:489a42fe368bdcf274da37",
+        "android_client_info": {
+          "package_name": "com.varsity.collectit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375346872086-8kp0cdnnvqdakm3brd1ncnp05cbiqbqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_xmSHx9jWtJg5vyDO-Mfp4WGFJYSc46M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375346872086-8kp0cdnnvqdakm3brd1ncnp05cbiqbqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

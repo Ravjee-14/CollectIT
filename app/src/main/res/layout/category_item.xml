@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/btnCategory"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@color/darkgrey" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="110dp"
+            android:text="Goal:"
+            android:textColor="@color/darkgrey"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtGetItemGoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:text="TextView"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/darkgrey"
+            android:textSize="15dp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/btnCategory"
+            android:backgroundTint="@color/grey"
+            android:text="Edit"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/btnEdit"
+            android:backgroundTint="@color/grey"
+            android:text="Delete"
+            android:textSize="15dp" />
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
